@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TETRISGAME.Block">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAAIAIBAAAAAAAAEAAAAAGAAIAAAAABAAAAAA=</HashCode>
+      <FileName>Block.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TETRISGAME.IBlock">
+    <Position X="7" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="TETRISGAME.Block" FixedFromPoint="true">
+      <Path>
+        <Point X="14.5" Y="5.045" />
+        <Point X="14.5" Y="5.875" />
+        <Point X="7.75" Y="5.875" />
+        <Point X="7.75" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAABAAAAAA=</HashCode>
+      <FileName>IBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TETRISGAME.JBlock">
+    <Position X="13.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAABAAAAAA=</HashCode>
+      <FileName>JBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TETRISGAME.LBlock">
+    <Position X="16" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAABAAAAAA=</HashCode>
+      <FileName>LBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TETRISGAME.Oblock">
+    <Position X="9.25" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="TETRISGAME.Block" FixedFromPoint="true">
+      <Path>
+        <Point X="14.5" Y="5.045" />
+        <Point X="14.5" Y="5.875" />
+        <Point X="10" Y="5.875" />
+        <Point X="10" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAABAAAAAA=</HashCode>
+      <FileName>Oblock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TETRISGAME.SBlock">
+    <Position X="18.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAABAAAAAA=</HashCode>
+      <FileName>SBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TETRISGAME.TBlock">
+    <Position X="20.5" Y="6.5" Width="1.5" />
+    <InheritanceLine Type="TETRISGAME.Block" ManuallyRouted="true">
+      <Path>
+        <Point X="14.5" Y="5.045" />
+        <Point X="14.5" Y="5.868" />
+        <Point X="21.25" Y="5.868" />
+        <Point X="21.25" Y="6.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAABAAAAAA=</HashCode>
+      <FileName>Tblock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TETRISGAME.ZBlock">
+    <Position X="11.5" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="TETRISGAME.Block" FixedFromPoint="true">
+      <Path>
+        <Point X="14.5" Y="5.045" />
+        <Point X="14.5" Y="5.875" />
+        <Point X="12.25" Y="5.875" />
+        <Point X="12.25" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAABAAAAAA=</HashCode>
+      <FileName>Zblock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
